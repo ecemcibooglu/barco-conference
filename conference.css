@@ -44,7 +44,7 @@ border: 2px solid red !important;
 
 .header::before {
 background-position: 100% 13%;
-    background-image: url("https://assets.channext.eu/barco/2023/conference/img/conferenceheader.jpg");
+    background-image: url("../conference-img/conferenceheader.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     content: '';
