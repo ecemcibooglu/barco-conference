@@ -1,0 +1,175 @@
+.header {
+    position: relative;
+}
+
+.btn-red {
+   background-color: #f00000 !important;
+    color: white !important;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: 2px solid #f00000 !important;
+}
+
+.btn-red:hover {
+   background-color: #d70000!important;
+    color: white !important;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: 2px solid #d70000 !important;
+}
+
+.red-link {
+    text-decoration: none !important;
+    color: #f00000 !important;
+    font-weight: bold !important;
+}
+
+.red-link:hover {
+    text-decoration: none !important;
+    color: #f00000 !important;
+    font-weight: bold !important;
+}
+
+.btn-white {
+color: red  !important;
+background-color: white !important;
+border: 2px solid red !important;
+}
+
+.btn-white:hover {
+color: white !important;
+background-color: red !important;
+border: 2px solid red !important;
+}
+
+.header::before {
+background-position: 100% 13%;
+    background-image: url("https://assets.channext.eu/barco/2023/conference/img/conferenceheader.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    content: '';
+    position: absolute; 
+    opacity: 30%;
+    height: 100%;
+    width: 100%;
+
+}
+
+  .text {
+    position: relative;
+}
+  
+.bitmap {
+    width: 60px;
+    height: 60px;
+}
+
+h1 {
+    font-size: 45px !important;
+}
+
+.f-900 {
+    font-weight: 900 !important;
+}
+
+.f-22 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .mt-xs {
+        margin-top: 10%;
+    }
+
+    .center-sm {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+form .checkbox label {
+    font-size: 11px;
+}
+}
+
+@media screen and (max-width: 425px) {
+    .header {
+        background-position: 29% 30%;
+    }
+
+    h1 {
+        font-size: 34px !important;
+    }
+}
+
+.border {
+    border: 2px solid #dee2e6 !important;
+}
+
+form input {
+    margin: 0.3rem 1rem;
+    padding: 0 21px;
+    background: #fff;
+    border: 2px solid #f7f7f7;
+}
+
+form input:not([type="checkbox"]) {
+    width: 99%;
+    height: 45px;
+}
+
+form input[type="checkbox"] {
+    margin-top: 1rem;
+}
+
+form label {
+    display: unset;
+}
+
+form .text label,
+form .email label,
+form .phone label {
+    display: none;
+}
+
+form input:focus {
+    border: 2px solid #f7f7f7;
+    background: #fff;
+    outline: 0;
+}
+
+form .checkbox input {
+    margin-right: 2px;
+}
+
+form .button {
+   background-color: #f00000 !important;
+    color: white !important;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    border: 3px solid #f00000 !important;
+    padding: 10px;
+margin-left: 15px;
+}
+
+form .button:hover {
+   background-color: transparent !important;
+    color: #f00000 !important;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 4px;
+    border: 3px solid #f00000 !important;
+    padding: 10px;
+}
+
+
+.gray-bg {
+background-color: #f7f7f7
+}

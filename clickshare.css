@@ -1,0 +1,163 @@
+label {
+    display: none;
+}
+
+.checkbox label,
+.fieldproduct label {
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.btn-red {
+   background-color: #f00000 !important;
+    color: white !important;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: 2px solid #f00000 !important;
+}
+
+.btn-red:hover {
+   background-color: #d70000!important;
+    color: white !important;
+    margin-top: 1rem;
+    border-radius: 4px;
+    border: 2px solid #d70000 !important;
+}
+
+.red-link {
+    text-decoration: none !important;
+    color: #f00000 !important;
+    font-weight: bold !important;
+}
+
+.red-link:hover {
+    text-decoration: none !important;
+    color: #f00000 !important;
+    font-weight: bold !important;
+}
+
+.b-700 {
+ text-decoration: none;
+ color: red !important;
+}
+
+.b-700:hover {
+ text-decoration: none;
+ color: red !important;
+}
+
+label[for="field12"] {
+    display: none;
+}
+
+label[for="field12-option1"] {
+    font-weight: 500;
+    font-size: 14px;
+    width: 80%;
+}
+
+form label[for="fieldconditions"] {
+    display: none;
+}
+
+::placeholder {
+    color: #000;
+}
+
+#interactiveProgressBar {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form {
+    padding-top: 60px;
+}
+
+.progress-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    background-color: #e50007;
+    transition: width .6s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline-color: #8C0005;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(117, 117, 117);
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+    font-size: 16px;
+    width: 95% !important;
+    border-radius: 4px;
+    border: 1px solid #C8C8C8;
+    background-color: #fff;
+    margin: .4em 0 !important;
+    height: 50px !important;
+    padding: 7px 20px;
+}
+
+form div {
+    padding-bottom: 10px;
+}
+
+.button,
+.button:hover {
+    margin: 10px 0;
+    height: 50px;
+    background: #f00000;
+    color: #fff;
+    border: 1px solid transparent;
+    padding: 14px 20px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all .2s ease-in;
+    border-radius: 4px;
+    text-align: right;
+    text-transform: none;
+}
+
+@media screen and (max-width: 450px) {
+    .checkbox {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .mt-xs {
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
+
+.red {
+    font-weight: 700;
+}
